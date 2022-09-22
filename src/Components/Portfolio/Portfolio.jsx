@@ -29,7 +29,7 @@ export default function Portfolio() {
             <a href="https://tomoto-restaurant-835a.vercel.app/" target='blank'><img src={Ecommerce} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={MusicApp} alt="" />
+            <a href="https://portfolio-website-rho-pied.vercel.app/" target='blank'><img src={MusicApp} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
             <img src={HOC} alt="" />
