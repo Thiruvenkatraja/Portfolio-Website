@@ -11,18 +11,18 @@ export default function Experience() {
    <div className='experience' id='Experience' >
     <div className="achivement">
         <div className="circle">3+</div>
-        <span>Months</span>
+        <span>Months </span>
         <span>Java</span>
-        <span>Self Experience</span>
+        <span>SelfExperience</span>
     </div>
     <div className="achivement">
-        <div className="circle">+3</div>
+        <div className="circle">3+</div>
         <span>Months</span>
-        <span>Html, Css, Js, ReactJs</span>
+        <span>Html,Css,Js,ReactJs</span>
         <span>FrontEnd Dev</span>
     </div>
     <div className="achivement">
-        <div className="circle">+3</div>
+        <div className="circle">3+</div>
         <span>Months</span>
         <span>Photoshop,Lightroom</span>
         <span>Design</span>

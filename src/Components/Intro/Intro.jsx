@@ -24,7 +24,7 @@ export default function Intro() {
       <div className="i-left">
         <div className="i-name">
           <span style={{color:darkMode?'white':''}}> Hi !  I'm </span>
-          <span>Venkadesh T</span>
+          <span>Venkadesh</span>
           <span>
              <h1 style={{color:darkMode?'white':''}}>
               <Typical

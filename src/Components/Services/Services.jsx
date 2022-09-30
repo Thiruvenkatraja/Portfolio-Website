@@ -39,7 +39,7 @@ export default function Services() {
                 <Card
                 emoji={HeartEmoji}
                 heading={'SSLC'}
-                detail={"Mani Matric Hr Sec School"}
+                detail={"Mani Matric Higher Sec School"}
                 year={"(2014-2015)"}
                 marks={"89%"}  
                 sheet={'https://drive.google.com/file/d/1rhb-V3xbOV6LRXSSQFcMudV3-OfV8r84/view?usp=sharing'}              
@@ -69,7 +69,7 @@ export default function Services() {
                 <Card
                 emoji={humble}
                 heading={'BE (Mech Eng)'}
-                detail={"Jeppiaar Maamallan Eng College "} 
+                detail={"Jeppiaar Maamallan Eng College"} 
                 year={"(2017-2021)"}
                 marks={"7.68cgpa"}
                 sheet={'https://drive.google.com/file/d/1hxWI2b6d40tSyZfk_Y6vv9JsvH_gPsTc/view?usp=sharing'}                    
@@ -84,7 +84,7 @@ export default function Services() {
                 <Card
                 emoji={glassesimoji}
                 heading={'FullStack Dev'}
-                detail={"Greens Technologys"} 
+                detail={"-----Greens Technologys-----"} 
                 year={"(July-Sep 2022)"}
                 sheet={'#'}                    
                 />

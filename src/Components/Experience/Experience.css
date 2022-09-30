@@ -41,10 +41,21 @@
 .achivement span:nth-of-type(2){
     color:var(--orange);
 }
+@media screen and (max-width:920px) {
+    .experience{
+        margin-top:-20rem;
+    }
+    .achivement {
+       width: 15rem;
+        height: auto;
+    }
+
+}
 @media screen and (max-width: 480px) {
     .experience{
         transform: scale(0.7);
-       height: 45rem;
+       height: 30rem;
        flex-wrap: wrap;
+       margin-top:-10rem;
     }
 }

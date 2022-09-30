@@ -3,7 +3,10 @@
     align-items: center;
     margin: -0.5rem -3.5rem;
     position: relative;
-    margin-top: -7rem;
+    margin-top: 0rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 0;
 }
 .f-content{
     position:absolute;
@@ -15,6 +18,8 @@
     margin-top:4rem;
     gap:2rem;
     color:white;
+    
+    
 }
 .f-icons{
     display: flex;
@@ -22,4 +27,24 @@
 }
 .f-content .f-top{
     padding-top: 7rem;
+}
+@media screen and (max-width:920px) {
+    .footer{ 
+        margin-top: -35rem;  
+        height:25rem;
+      }
+      .footer img{
+          height: 100%;
+      }
+}
+@media screen and (max-width:480px) {
+    .footer{ 
+        margin-top: -20rem;  
+      height:30rem;
+    }
+    .footer img{
+        height: 100%;
+    }
+    
+    
 }

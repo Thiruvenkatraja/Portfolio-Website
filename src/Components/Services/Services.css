@@ -47,6 +47,33 @@
     
 }
 
+
+@media screen and (max-width:920px) 
+{
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap:5rem;
+        height: 66rem;
+        padding: 0;
+        align-items: center;
+        bottom:40rem;
+        
+        }
+        .awesome{
+          top:-35rem;
+        }
+    .cards{
+        display:flex;
+        flex-direction: column;
+        gap:17rem;
+        bottom:35rem;
+    }
+    .cards>*{
+        position: static;
+    }
+}
+
 @media screen and (max-width:480px) 
 {
     .services{
@@ -56,10 +83,14 @@
         height: 66rem;
         padding: 0;
     }
+    .awesome{
+        bottom:15rem;
+    }
     .cards{
         display:flex;
         flex-direction: column;
         gap:17rem;
+        bottom: 15rem;
     }
     .cards>*{
         position: static;

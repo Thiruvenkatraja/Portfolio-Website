@@ -44,9 +44,21 @@
     text-decoration:none;
     color: orange;
 }
+@media screen and (max-width:920px) {
+    .card{
+        width:90%;
+        height:17%;
+        left:3%;
+ }
+    
+}
 @media screen and (max-width:480px) {
     .card{
-        width:auto;
+        width:60%;
+        height:16%;
+        left:12%;
+        
     }
     
 }
+

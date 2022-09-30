@@ -30,3 +30,28 @@
     filter:drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
     border-radius:19px;
 }
+@media screen and (max-width:920px) {
+    .portfolio{
+        bottom:20rem;
+    }
+    .portfolio img{
+        width:20rem;
+    }
+    .portfolio-slider {
+        width:60rem;
+    }
+    .portfolio .swiper{
+        overflow: visible !important;
+    }
+   
+}
+@media screen and (max-width:480px) {
+    .portfolio img{
+        width:15rem;
+}
+.portfolio-slider {
+    width:50rem;
+}
+
+    
+}

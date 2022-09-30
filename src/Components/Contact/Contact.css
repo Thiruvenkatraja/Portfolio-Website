@@ -19,7 +19,6 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    
 }
 
 .c-right .user{
@@ -46,15 +45,49 @@ textarea{
     color:var(--orange);
     border: 1px solid var(--orange);
   }
-  @media screen and (max-width: 480px) {
+  
+  @media screen and (max-width: 920px) {
     .contact-form{
         padding: 0;
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 5rem;
         height: 40rem;
     }
+    .awesome{
+    
+        bottom:40rem;
+    }
+    .c-right .user{
+        width: 20rem;
+        position: relative;
+        bottom:30rem;
+}
+    .c-btn{
+        position: relative;
+        bottom:30rem
+  }
+}   
+  
+  
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 2rem;
+        height: 40rem;
+        bottom:20rem;
+    }
+    .awesome{
+    
+        top:-13rem;
+    }
     .c-right .user{
         width: 16rem;
+        position: relative;
+        bottom:12rem;
     }
-
-}   
+    .c-btn{
+        position: relative;
+        bottom:12rem
+}
+   }

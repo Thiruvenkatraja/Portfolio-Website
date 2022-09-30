@@ -18,21 +18,21 @@ export default function Portfolio() {
      <span style={{color:darkMode?'white':''}}>Recent Projects</span>
      <span>Portfolio</span>
      <Swiper
-     spaceBetween={30}
+     spaceBetween={40}
      slidesPerView={3}
      grabCursor={true}
       className='portfolio-slider'>
         <SwiperSlide>
-            <a href='https://insta-clone-ywoq.vercel.app/' target='blank'><img src={Sidebar} alt="" /></a>
+            <a href='https://insta-clone-ywoq.vercel.app/' target='blank'><img src={Sidebar} alt="img not found" /></a>
         </SwiperSlide>
         <SwiperSlide>
-            <a href="https://tomoto-restaurant-835a.vercel.app/" target='blank'><img src={Ecommerce} alt="" /></a>
+            <a href="https://tomoto-restaurant-835a.vercel.app/" target='blank'><img src={Ecommerce} alt="img not found" /></a>
         </SwiperSlide>
         <SwiperSlide>
-            <a href="https://portfolio-website-rho-pied.vercel.app/" target='blank'><img src={MusicApp} alt="" /></a>
+            <a href="https://portfolio-website-rho-pied.vercel.app/" target='blank'><img src={MusicApp} alt="img not found" /></a>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={HOC} alt="" />
+           <a href="#"> <img src={HOC} alt="img not found" /></a>
         </SwiperSlide>
 
      </Swiper>
