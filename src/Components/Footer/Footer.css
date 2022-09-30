@@ -24,6 +24,11 @@
 .f-icons{
     display: flex;
     gap:2rem;
+    cursor: pointer;
+}
+.f-icons a :hover{
+    transform: scale(1.07);
+    transition: transform 0.6s;
 }
 .f-content .f-top{
     padding-top: 7rem;

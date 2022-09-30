@@ -12,9 +12,9 @@ export default function Footer() {
         <span className='f-top'>Venkat.tv.raja@gmail.com</span>
         
         <div className="f-icons">
-            <Google size='3rem' color='white'/>
-            <Github size='3rem' color='white'/>
-            <Linkedin size='3rem' color='white'/>
+            <a href='https://myaccount.google.com/profile' target='blank'><Google size='3rem' color='white'/></a>
+            <a href='https://github.com/Thiruvenkatraja' target='blank'><Github size='3rem' color='white'/></a>
+            <a href='https://www.linkedin.com/in/venkadesh-t-7b3a79223/' target='blank'><Linkedin size='3rem' color='white'/></a>
         </div>
         <span className='f-end'>--copyrights under TVR corporation--</span>
      </div>
