@@ -44,7 +44,7 @@
 }
 @media screen and (max-width:480px) {
     .footer{ 
-        margin-top: -20rem;  
+        margin-top: -12rem;  
       height:30rem;
     }
     .footer img{
